@@ -4,7 +4,7 @@ function Header({isDarkMode,onDarkModeClick}) {
         <header>
             <h2>Shopster</h2>
             <button onClick={onDarkModeClick}>
-                {isDarkMode ?"Dark Mode":"Light Mode"}
+                {isDarkMode ?"Dark":"Light"} Mode
             </button>
         </header>
     );
